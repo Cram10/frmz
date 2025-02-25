@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="gallerypage.css">
+    <script src="gallerypage.js"></script>
+    <title>Rizal Gallery</title>
+</head>
+<body>
+    <div class="gallery-container">
+        <h1>Gallery</h1>
+        <div class="tabs">
+            <button class="tab-button active" onclick="showTab('rizal')">Mga Larawan ni Rizal</button>
+            <button class="tab-button" onclick="showTab('works')">Kanyang Mga Akda</button>
+            <button class="tab-button" onclick="showTab('monuments')">Mga Monuments</button>
+        </div>
+        <div class="tab-content" id="rizal">
+            <img src="rizalimage.jpg" alt="Jose Rizal 1">
+            <img src="rizal2.jpg" alt="Jose Rizal 2">
+            <img src="rizal3.jpg" alt="Jose Rizal 3">
+        </div>
+        <div class="tab-content" id="works" style="display: none;">
+            <img src="works1.jpeg" alt="Noli Me Tangere">
+            <img src="works2.jpg" alt="El Filibusterismo">
+            <img src="works3.jpg" alt="Mi Ultimo Adios">
+        </div>
+        <div class="tab-content" id="monuments" style="display: none;">
+            <img src="monument4.jpg" alt="Rizal Monument 1">
+            <img src="monument2.webp" alt="Rizal Monument 2">
+            <img src="monument3.jpg" alt="Rizal Monument 3">
+        </div>
+    </div>
+    <div class="button-container">
+        <a href="workspage.html" class="back-button">Back</a>
+        <a href="resources.html" class="next-button">Next</a>
+    </div>
+</body>
+</html>

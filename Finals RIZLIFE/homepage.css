@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background: url('rizal.jpg') no-repeat center fixed;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.header{
+    background: #8b4513;
+    color: white;
+    padding: 15px 0;
+    font-size: 24px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    text-align: center;
+}
+h1, p{
+    color: #5a3e1b;
+}
+.next-button{
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #8b4513;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+.next-button:hover{
+    background-color: #5a3e1b;
+}
