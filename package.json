@@ -1,6 +1,6 @@
 {
   "name": "frmz",
-  "version": "0.0.11",
+  "version": "0.0.111",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "files": [
@@ -30,6 +30,9 @@
   "description": "A schema-aware reactive FormData builder with Zod validation and full Blob/File support",
   "peerDependencies": {
     "zod": "^3.0.0"
+  },
+  "repository": {
+    "url": "https://github.com/techwithmanuel/frmz"
   },
   "devDependencies": {
     "typescript": "^5.8.3",
