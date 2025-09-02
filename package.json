@@ -1,0 +1,38 @@
+{
+  "name": "frmz",
+  "version": "0.0.11",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist",
+    "package.json",
+    "README.md"
+  ],
+  "scripts": {
+    "dev": "npx tsc -w",
+    "build": "npx tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "formdata",
+    "zod",
+    "validation",
+    "typescript",
+    "forms",
+    "file-upload",
+    "blob",
+    "proxy",
+    "reactive",
+    "schema",
+    "form-validation"
+  ],
+  "license": "MIT",
+  "description": "A schema-aware reactive FormData builder with Zod validation and full Blob/File support",
+  "peerDependencies": {
+    "zod": "^3.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.3",
+    "zod": "^3.24.4"
+  }
+}
